@@ -1,0 +1,44 @@
+h1 {
+  background-color: springgreen;
+}
+
+a {
+  text-decoration: none;
+  font-size: 75%;
+  font-family: "Comic Sans", sans-serif;
+}
+
+ul li {
+  color: brown;
+}
+
+ol li {
+  color: red;
+}
+
+#school {
+  text-align: right;
+  color: springgreen;
+}
+
+.work, .postgrad {
+  background-color: peru;
+  font-family: monospace;
+  font-variant: small-caps;
+}
+
+.postgrad {
+  background-color: springgreen;
+}
+
+th {
+  background-color: brown;
+}
+
+@media (width <= 700px) {
+  body {
+    color: red;
+  }
+}
+
+/*# sourceMappingURL=general.css.map */

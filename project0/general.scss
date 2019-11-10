@@ -1,0 +1,47 @@
+$color1: springgreen;
+$color2: brown;
+$color3: peru;
+$color4: red;
+h1 {
+  background-color: $color1; }
+
+  a {
+text-decoration: none;
+font-size: 75%;
+font-family: "Comic Sans", sans-serif;
+  }
+ul {
+
+
+li {
+color: $color2;
+}
+}
+ol {
+	li {
+color: $color4;
+
+	}
+}
+#school {
+  text-align: right;
+  color: $color1; }
+
+  .work {
+background-color: $color3;
+font-family: monospace;
+font-variant: small-caps;
+  }
+.postgrad {
+@extend .work;
+background-color: $color1
+}
+
+th {
+  background-color: $color2; }
+
+@media (width <= 700px) {
+  body {
+color: $color4;
+  }
+}
